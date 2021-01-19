@@ -9,7 +9,7 @@ DOOMSLAYER, the best dog in the world, and wants to make a website where he can 
      - but his blue monster toy also sqeaks. 
 
 
-BACKEND GOALS:
+BACKEND GOALS: 
 - Model The relationship correctly
 - Seed 2 different sounds
 - Seed 5 different toys,

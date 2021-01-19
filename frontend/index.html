@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOOMSLAYER'S TOY SHOP</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="title">
+        <h1>DOOMSLAYER TOY SHOPPE</h1>
+    </header>
+    <section id="create-toy-section">
+        <form method="post" action="http://localhost:9000/toys/">
+            <label for="name">Name:</label>
+            <input name="name" id="name" type="text">
+            <label for="color">Color:</label>
+            <input name="color" id="color" type="text">
+            <label for="price">Price:</label>
+            <input name="price" id="price" type="number">
+            <label for="sound">Sound:</label>
+            <select name="sound" id="sound">
+            </select>
+            <input type="submit">
+        </form>
+    </section>
+    <section id="list-toy-section">
+
+    </section>
+</body>
+</html>
